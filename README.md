@@ -6,8 +6,11 @@ Fortigate Firwall Policy Printer
 [Usage]
 
 Firewall : Firewall IP
+
 ID : Account ID
+
 PW : Accout PW
+
 VDOM : VDOM(IF you do not use VDOM, input root)
 
 [Output]
