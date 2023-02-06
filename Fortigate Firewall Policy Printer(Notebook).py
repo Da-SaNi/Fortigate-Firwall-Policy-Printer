@@ -297,7 +297,7 @@ class window(wx.Frame):
         self.pw = self.pw_text.GetValue()
         self.nc_num = self.vdom_text.GetValue()
         d = datetime.datetime.now()
-        file_name = u'FirwaPolicy_' + d.strftime("%Y") + d.strftime("%m") + d.strftime("%d") + u'.xlsx'
+        file_name = u'FirewallPolicy_' + d.strftime("%Y") + d.strftime("%m") + d.strftime("%d") + u'.xlsx'
 
         if self.id == "":
             wx.MessageBox(u"ID를 입력하세요.", 'Warning', wx.OK)
